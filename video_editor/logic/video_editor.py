@@ -97,9 +97,9 @@ class VideoEditor:
             path_to_second_video_file: str) -> None:
         first_stream = ffmpeg.input(path_to_first_video_file)
         second_stream = ffmpeg.input(path_to_second_video_file)
-        merged_videos = ffmpeg.concat(
+        concat_videos = ffmpeg.concat(
             first_stream.video, first_stream.audio,
             second_stream.video, second_stream.audio, v=1, a=1)
         title_for_video_output = self.generate_title_for_video()
-        merged_video = ffmpeg.output(merged_videos, title_for_video_output)
+        merged_video = ffmpeg.output(concat_videos, title_for_video_output)
         ffmpeg.run(merged_video)
