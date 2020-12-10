@@ -1,0 +1,28 @@
+{
+  "customize": {
+    "window_title": "Окно выбора функции",
+    "window_size": [400, 400]
+  },
+  "button": {
+    "speed_up": {
+      "text": "Ускорить видео",
+      "position": [100, 60],
+      "size" : [200, 50]
+    },
+    "slow_down": {
+      "text": "Замедлить видео",
+      "position": [100, 120],
+      "size" : [200, 50]
+    },
+    "split_video": {
+      "text": "Разрезать видео",
+      "position": [100, 180],
+      "size" : [200, 50]
+    },
+    "merge_video": {
+      "text": "Склеить видео",
+      "position": [100, 240],
+      "size" : [200, 50]
+    }
+  }
+}
