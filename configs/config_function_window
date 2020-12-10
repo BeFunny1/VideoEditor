@@ -79,7 +79,7 @@
   },
   "merge_video": {
     "customize": {
-      "window_title": "Разрезать видео",
+      "window_title": "Склеить видео",
       "window_size": [400, 400]
     },
     "button": {
